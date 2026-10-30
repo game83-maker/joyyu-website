@@ -2,7 +2,7 @@
 
 Website source, prepared 29 October 2026.
 
-Repository: [game83-maker/joyyu-website](https://github.com/game83-maker/joyyu-website). GitHub Pages publishing target: [JoYYu website](https://game83-maker.github.io/joyyu-website/), from `main` at the repository root. Custom-domain DNS has not been connected.
+Repository: [game83-maker/joyyu-website](https://github.com/game83-maker/joyyu-website). Published at [joyyu.com.vn](https://joyyu.com.vn/), using GitHub Pages from `main` at the repository root. The custom domain is verified and HTTPS is enforced.
 
 Three static pages for JoYYu and Copy & Color Puzzle. No package installation, build command, JavaScript, third-party fonts, analytics scripts, contact form, or database is required.
 
@@ -17,6 +17,7 @@ styles.css                       Shared responsive and print styles
 assets/joyyu-mascot.png           Existing JoYYu mascot artwork
 assets/game-icon.png             Existing Copy & Color Puzzle icon
 .nojekyll                        Plain-file GitHub Pages publishing
+CNAME                            Permanent custom domain: joyyu.com.vn
 .gitignore                       Excludes common local files
 ```
 
@@ -43,7 +44,7 @@ Open `http://127.0.0.1:8080/`. Stop with Ctrl+C. Also check `/support/` and `/co
 7. Set `joyyu.com.vn` in repository Pages settings before changing its website DNS records. GitHub creates the root `CNAME` file; retain it in later updates.
 8. Configure P.A Việt Nam DNS using GitHub's current instructions, enable Enforce HTTPS when ready, and test all three pages while signed out.
 
-The files use relative links and work both under a repository path and at a custom-domain root. A `CNAME` file is deliberately absent until the domain is configured in GitHub.
+The files use relative links and work both under a repository path and at a custom-domain root. Preserve the included `CNAME` file and the repository's custom-domain setting in future updates. Keep the GitHub verification TXT record in P.A's DNS configuration.
 
 Official instructions: [create a Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), [domain verification](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages), [custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
@@ -65,13 +66,13 @@ Before using the URL for release, resolve the existing review items: required op
 
 Edit the HTML policy as the maintained website source. If the Word draft is also maintained, update both together and record the revision date; the website does not import Word changes automatically.
 
-## Planned permanent URLs
+## Permanent URLs
 
 - `https://joyyu.com.vn/`
 - `https://joyyu.com.vn/support/`
 - `https://joyyu.com.vn/copy-color-puzzle/privacy/`
 
-After publication, use the exact final policy URL in the game and Play Console. Keep this path stable in later revisions.
+Use the exact final policy URL in the game and Play Console after completing the remaining policy-content review. Keep this path stable in later revisions.
 
 ## Maintenance
 
@@ -89,4 +90,4 @@ These local checks do not verify live hosting, DNS, HTTPS, mailbox delivery, or 
 
 ## Deployment
 
-Publishing is configured separately in repository Settings → Pages. The initial GitHub Pages URL is `https://game83-maker.github.io/joyyu-website/`. The custom `joyyu.com.vn` domain remains a later DNS setup task; policy-content review remains separate from hosting setup.
+Publishing is configured in repository Settings → Pages, from `main` at `/`. On 30 October 2026, `joyyu.com.vn` was assigned as the custom domain after ownership verification and the owner's P.A DNS setup. GitHub approved a certificate covering `joyyu.com.vn` and `www.joyyu.com.vn`; HTTPS enforcement was enabled. The initial GitHub Pages address was `https://game83-maker.github.io/joyyu-website/`. Policy-content review remains separate from hosting setup.
