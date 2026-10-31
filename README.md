@@ -4,7 +4,7 @@ Website source, prepared 29 October 2026.
 
 Repository: [game83-maker/joyyu-website](https://github.com/game83-maker/joyyu-website). Published at [joyyu.com.vn](https://joyyu.com.vn/), using GitHub Pages from `main` at the repository root. The custom domain is verified and HTTPS is enforced.
 
-Three static pages for JoYYu and Copy & Color Puzzle. No package installation, build command, JavaScript, third-party fonts, analytics scripts, contact form, or database is required.
+Three static pages for JoYYu and Copy & Color Puzzle. No package installation or build command is required. The approved homepage and policy page use small JavaScript files for navigation, contact, and policy expansion. Fredoka is local and DM Sans loads from Google Fonts.
 
 ## Files
 
@@ -91,3 +91,11 @@ These local checks do not verify live hosting, DNS, HTTPS, mailbox delivery, or 
 ## Deployment
 
 Publishing is configured in repository Settings → Pages, from `main` at `/`. On 30 October 2026, `joyyu.com.vn` was assigned as the custom domain after ownership verification and the owner's P.A DNS setup. GitHub approved a certificate covering `joyyu.com.vn` and `www.joyyu.com.vn`; HTTPS enforcement was enabled. The initial GitHub Pages address was `https://game83-maker.github.io/joyyu-website/`. Policy-content review remains separate from hosting setup.
+
+## Approved homepage and privacy design — 1 November 2026
+
+The homepage and game privacy page implement the approved JoYYu mockups. Navigation links the two pages and the existing support page. The homepage identifies Copy & Color Puzzle as Coming soon and contains no game screenshots. The Say hello button is in About JoYYu.
+
+Both pages use the existing JoYYu wordmark and locally hosted Fredoka display font. DM Sans loads from Google Fonts, with a sans-serif fallback. The bear artwork is the provisional transparent extraction approved for the mockup. The game privacy policy text and its existing effective/update dates are preserved.
+
+The new pages use homepage.css/homepage.js and privacy.css/privacy.js. The existing styles.css remains for the support page. Run a static server from this directory to preview. GitHub Pages can continue publishing the repository root.

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@font-face{font-family:'JoYYu Display';src:url(assets/fonts/fredoka-semibold.ttf) format('truetype');font-weight:600;font-display:swap}
+#joyyu-privacy{--pp-paper:#FFF8EE;--pp-lavender:#EEE9FF;--pp-blush:#F8DCE9;--pp-violet:#5B43B5;--pp-ink:#2F2937;color-scheme:light;background:var(--pp-paper);color:var(--pp-ink);font:14px/1.7 'DM Sans',sans-serif;overflow:hidden}
+#joyyu-privacy *{box-sizing:border-box}
+#joyyu-privacy h1,#joyyu-privacy h2,#joyyu-privacy h3,#joyyu-privacy p{margin:0}
+#joyyu-privacy a{color:inherit;text-underline-offset:4px;overflow-wrap:anywhere}
+#joyyu-privacy .pp-inner{width:100%;max-width:1200px;margin:auto;padding-inline:clamp(24px,6vw,64px)}
+#joyyu-privacy .j-nav{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:14px;padding-block:14px;border-bottom:1px solid #d9cfdb}
+#joyyu-privacy .j-brand-group{display:flex;align-items:center;flex-shrink:0}
+#joyyu-privacy .j-wordmark{display:block;width:176px}
+#joyyu-privacy .j-wordmark img{width:100%;height:auto;display:block}
+#joyyu-privacy .j-nav nav{display:flex;align-items:center;margin-left:auto;gap:2px;background:#fffdf8;border:1px solid #ddd4de;border-radius:40px;padding:3px;font-size:12px}
+#joyyu-privacy .j-nav nav a{border-radius:30px;padding:9px 14px;display:inline-flex;align-items:center;min-height:40px;font-weight:600;text-decoration:none}
+#joyyu-privacy .j-nav nav a[aria-current]{background:#eee9ff;color:#493195}
+#joyyu-privacy .j-nav nav a:hover{text-decoration:underline}
+#joyyu-privacy .pp-hero{background:var(--pp-lavender);padding-block:40px 42px}
+#joyyu-privacy .pp-eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;margin-bottom:17px}
+#joyyu-privacy .pp-hero h1{font:600 clamp(40px,6.6vw,68px)/1.1 'JoYYu Display',ui-rounded,sans-serif;letter-spacing:-.024em}
+#joyyu-privacy .pp-hero p{max-width:54ch;font-size:15px;margin-top:17px}
+#joyyu-privacy .pp-meta{display:flex;gap:12px 26px;flex-wrap:wrap;font-size:11px;margin-top:24px}
+#joyyu-privacy .pp-layout{display:grid;grid-template-columns:190px minmax(0,1fr);gap:48px;padding-block:44px 50px;align-items:start}
+#joyyu-privacy .pp-toc{font-size:12px}
+#joyyu-privacy .pp-toc ol{margin:0;padding:0;list-style:none}
+#joyyu-privacy .pp-toc li{margin-bottom:4px}
+#joyyu-privacy .pp-toc a{display:block;padding:7px 0;text-decoration:none;line-height:1.5}
+#joyyu-privacy .pp-toc a:hover{color:var(--pp-violet);text-decoration:underline}
+#joyyu-privacy .pp-introduction p{margin-bottom:15px;font-size:13px}
+#joyyu-privacy .pp-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:29px 0 8px;padding-bottom:12px}
+#joyyu-privacy .pp-controls span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+#joyyu-privacy button{border:1px solid #cbbfd9;border-radius:30px;background:var(--pp-paper);color:var(--pp-violet);font:600 12px/1.4 'DM Sans',sans-serif;padding:10px 15px;min-height:44px}
+#joyyu-privacy details{border-top:1px solid #cbbfd9;scroll-margin-top:20px}
+#joyyu-privacy details:last-child{border-bottom:1px solid #cbbfd9}
+#joyyu-privacy summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;padding:20px 0;font:600 19px/1.35 'JoYYu Display',ui-rounded,sans-serif;letter-spacing:-.01em}
+#joyyu-privacy summary::-webkit-details-marker{display:none}
+#joyyu-privacy summary::after{content:'+';font:400 24px/1 'DM Sans',sans-serif;color:var(--pp-violet);flex-shrink:0}
+#joyyu-privacy details[open]>summary::after{content:'−'}
+#joyyu-privacy .pp-sectionbody{font-size:13px;padding-bottom:24px}
+#joyyu-privacy .pp-sectionbody p{margin-bottom:14px}
+#joyyu-privacy .pp-sectionbody p:last-child{margin-bottom:0}
+#joyyu-privacy .pp-sectionbody h3{font-size:15px;line-height:1.4;margin:22px 0 10px;font-weight:600}
+#joyyu-privacy .pp-sectionbody ul{padding-left:20px;margin:12px 0 18px}
+#joyyu-privacy .pp-sectionbody li{margin-bottom:8px}
+#joyyu-privacy .pp-sectionbody a{color:var(--pp-violet)}
+#joyyu-privacy .table-scroll{width:100%;overflow-x:auto;margin-block:20px}
+#joyyu-privacy table{width:100%;border-collapse:collapse;font-size:12px;line-height:1.6}
+#joyyu-privacy caption{text-align:left;font-weight:600;margin-bottom:12px}
+#joyyu-privacy th{background:var(--pp-lavender);font-weight:600}
+#joyyu-privacy th,#joyyu-privacy td{padding:12px 10px;text-align:left;vertical-align:top;border-bottom:1px solid #cbbfd9;overflow-wrap:anywhere}
+#joyyu-privacy .pp-contact{background:var(--pp-blush);padding-block:33px}
+#joyyu-privacy .pp-contact .pp-inner{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+#joyyu-privacy .pp-contact h2{font:600 30px/1.2 'JoYYu Display',ui-rounded,sans-serif;letter-spacing:-.024em}
+#joyyu-privacy .pp-contact p{margin-top:9px;font-size:12px;max-width:40ch}
+#joyyu-privacy .pp-contact a{display:inline-flex;align-items:center;gap:20px;background:var(--pp-violet);color:#FFFCF7;border-radius:40px;padding:13px 18px;font-size:12px;text-decoration:none;min-height:46px}
+#joyyu-privacy footer{background:var(--pp-violet);color:#FFFCF7;font-size:11px;padding-block:22px}
+#joyyu-privacy footer .pp-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+#joyyu-privacy footer div div{display:flex;gap:20px;flex-wrap:wrap}
+#joyyu-privacy footer a{text-decoration:none}
+@media(max-width:650px){#joyyu-privacy .j-wordmark{width:140px}#joyyu-privacy .pp-layout{grid-template-columns:1fr;gap:30px}#joyyu-privacy .pp-toc ol{display:grid;grid-template-columns:1fr 1fr;column-gap:20px}#joyyu-privacy .pp-toc{padding-bottom:22px;border-bottom:1px solid #cbbfd9}#joyyu-privacy .pp-hero{padding-block:30px}#joyyu-privacy .pp-layout{padding-block:30px}}
+@media(max-width:480px){#joyyu-privacy .j-nav{padding-inline:16px;gap:10px}#joyyu-privacy .j-wordmark{width:112px}#joyyu-privacy .j-nav nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:calc(100% - 122px);gap:0}#joyyu-privacy .j-nav nav a{padding:6px;font-size:10px;line-height:1.3;min-height:44px;text-align:center;justify-content:center}#joyyu-privacy .pp-toc ol{grid-template-columns:1fr}#joyyu-privacy th,#joyyu-privacy td{padding:9px 6px}}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #FFF8EE; }
+.skip-link { position: absolute; left: 16px; top: 8px; transform: translateY(-200%); background: #FFF8EE; color: #2F2937; padding: 12px; z-index: 10; }
+.skip-link:focus { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

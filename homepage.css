@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+#joyyu-block-home{--j-paper:#FFF8EE;--j-lavender:#EEE9FF;--j-blush:#F8DCE9;--j-violet:#5B43B5;--j-ink:#2F2937;--j-cyan:#20D9F3;--j-space:64px;color-scheme:light;background:var(--j-paper);color:var(--j-ink);font:15px/1.6 'DM Sans',sans-serif;overflow:hidden}
+#joyyu-block-home *{box-sizing:border-box}
+#joyyu-block-home h1,#joyyu-block-home h2,#joyyu-block-home h3,#joyyu-block-home p,#joyyu-block-home figure{margin:0}
+#joyyu-block-home a{color:inherit;text-decoration:none}
+#joyyu-block-home a:hover{text-decoration:underline;text-underline-offset:5px}
+#joyyu-block-home button{font:inherit}
+#joyyu-block-home .j-inner{width:100%;max-width:1200px;margin:auto;padding-inline:clamp(24px,6vw,64px)}
+#joyyu-block-home .j-nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:22px}
+#joyyu-block-home .j-wordmark{display:block;width:116px;flex-shrink:0}
+#joyyu-block-home .j-wordmark img{width:100%;height:auto;display:block}
+#joyyu-block-home .j-nav nav{display:flex;align-items:center;gap:26px;font-size:12px;font-weight:500}
+#joyyu-block-home .j-nav .j-hello-link{border:1px solid var(--j-ink);border-radius:40px;padding:9px 16px}
+#joyyu-block-home .j-hero{padding-block:48px var(--j-space);position:relative}
+#joyyu-block-home .j-eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;display:flex;align-items:center;gap:9px;margin-bottom:19px}
+#joyyu-block-home .j-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--j-violet);flex-shrink:0}
+#joyyu-block-home .j-hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:14px;align-items:center}
+#joyyu-block-home h1{font:700 clamp(43px,7.2vw,78px)/1.02 'DM Sans',sans-serif;letter-spacing:-.065em;position:relative;z-index:1}
+#joyyu-block-home h1 em{font-style:normal;color:var(--j-violet)}
+#joyyu-block-home .j-hero-copy{max-width:330px;margin-top:25px;font-size:14px;line-height:1.7}
+#joyyu-block-home .j-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:25px}
+#joyyu-block-home .j-action{min-height:46px;display:inline-flex;align-items:center;gap:22px;padding:13px 21px;border-radius:50px;background:var(--j-violet);color:#FFFCF7;font:600 12px/1.5 'DM Sans',sans-serif;border:0;text-decoration:none}
+#joyyu-block-home .j-action:hover{filter:brightness(1.1);text-decoration:none}
+#joyyu-block-home .j-textlink{font-size:12px;font-weight:500;min-height:44px;display:inline-flex;align-items:center}
+#joyyu-block-home .j-mascot{position:relative;align-self:center;display:grid;place-items:center;min-width:0;padding-block:30px}
+#joyyu-block-home .j-mascot::before{content:'';position:absolute;background:var(--j-lavender);width:90%;aspect-ratio:1;border-radius:47% 53% 58% 42% / 56% 44% 56% 44%;transform:rotate(-12deg)}
+#joyyu-block-home .j-mascot img{width:115%;max-width:440px;height:auto;position:relative;z-index:1;display:block}
+#joyyu-block-home .j-greeting{position:absolute;top:1%;right:6%;z-index:2;font-size:12px;background:#FFFCF7;padding:10px 17px;border-radius:18px 18px 18px 3px;transform:rotate(8deg);border:1px solid #d6cae7}
+#joyyu-block-home .j-mascot figcaption{position:relative;z-index:2;font-size:11px;margin-top:13px;letter-spacing:.02em}
+#joyyu-block-home .j-gameband{background:var(--j-lavender);padding-block:var(--j-space);position:relative}
+#joyyu-block-home .j-bandtop{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:29px}
+#joyyu-block-home .j-bandtop .j-eyebrow{margin:0}
+#joyyu-block-home .j-small{font-size:11px}
+#joyyu-block-home .j-gamegrid{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;align-items:center}
+#joyyu-block-home h2{font:600 clamp(32px,4.8vw,53px)/1.08 'DM Sans',sans-serif;letter-spacing:-.05em}
+#joyyu-block-home .j-gamecopy>p{font-size:14px;max-width:30ch;margin-top:23px}
+#joyyu-block-home .j-meta{margin-top:20px;font-size:11px;font-weight:500;letter-spacing:.04em}
+#joyyu-block-home .j-gamecopy .j-action{margin-top:24px}
+#joyyu-block-home .j-screens{display:flex;align-items:center;justify-content:center;gap:16px;padding:6px 8px 16px;position:relative}
+#joyyu-block-home .j-screen{width:44%;max-width:177px;min-width:0;border-radius:24px;border:5px solid #FFFCF7;background:#FFFCF7;box-shadow:0 12px 22px #5b43b51a;overflow:hidden}
+#joyyu-block-home .j-screen:first-child{transform:rotate(-7deg) translateY(11px)}
+#joyyu-block-home .j-screen:last-child{transform:rotate(5deg) translateY(-7px)}
+#joyyu-block-home .j-screen img{width:100%;height:auto;display:block}
+#joyyu-block-home .j-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:47px;padding-top:28px;border-top:1px solid #CBBFD9}
+#joyyu-block-home .j-stepnumber{font-size:11px;color:var(--j-violet);display:block;margin-bottom:8px}
+#joyyu-block-home h3{font-size:17px;line-height:1.3;letter-spacing:-.02em;font-weight:600;margin-bottom:8px}
+#joyyu-block-home .j-steps p{font-size:12px;max-width:25ch}
+#joyyu-block-home .j-aboutband{background:var(--j-blush);padding-block:var(--j-space)}
+#joyyu-block-home .j-aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
+#joyyu-block-home .j-aboutcopy p{font-size:14px;max-width:34ch;margin-top:22px}
+#joyyu-block-home .j-principle{display:grid;grid-template-columns:28px 1fr;gap:12px;padding-block:20px;border-top:1px solid #ceafc5}
+#joyyu-block-home .j-principle:first-child{padding-top:0;border-top:0}
+#joyyu-block-home .j-principle>span{font-size:11px;padding-top:4px}
+#joyyu-block-home .j-principle p{font-size:12px;max-width:30ch}
+#joyyu-block-home .j-contactband{background:var(--j-violet);color:#FFFCF7;padding-top:45px}
+#joyyu-block-home .j-contact{display:flex;justify-content:space-between;align-items:center;gap:26px;padding-bottom:40px}
+#joyyu-block-home .j-contact h2{font-size:clamp(32px,4.7vw,48px);max-width:15ch}
+#joyyu-block-home .j-contact p{font-size:13px;margin-top:14px;max-width:37ch}
+#joyyu-block-home .j-contact .j-action{background:var(--j-paper);color:var(--j-violet);flex-shrink:0}
+#joyyu-block-home footer{border-top:1px solid #ffffff42;display:flex;gap:22px;justify-content:space-between;align-items:center;padding-block:20px;font-size:11px;flex-wrap:wrap}
+#joyyu-block-home footer div{display:flex;gap:20px;align-items:center}
+#joyyu-block-home .j-mini-brand{font-weight:600;font-size:14px;letter-spacing:-.02em}
+#joyyu-block-home dialog{background:var(--j-paper);color:var(--j-ink);border:0;border-radius:24px;width:min(480px,calc(100% - 32px));padding:28px;box-shadow:0 20px 80px #2f29374d}
+#joyyu-block-home dialog::backdrop{background:#2F293780}
+#joyyu-block-home dialog h2{font-size:30px}
+#joyyu-block-home dialog p{font-size:14px;margin-block:16px}
+#joyyu-block-home dialog .j-action{margin-top:16px}
+#joyyu-block-home .j-gallery{display:flex;gap:16px;justify-content:center}
+#joyyu-block-home .j-gallery img{width:43%;height:auto;align-self:start;border-radius:14px}
+#joyyu-block-home .j-email{font-weight:600;overflow-wrap:anywhere}
+@media(max-width:600px){#joyyu-block-home{--j-space:42px}#joyyu-block-home .j-nav{padding-block:17px;gap:12px;flex-wrap:wrap}#joyyu-block-home .j-wordmark{width:94px}#joyyu-block-home .j-nav nav{gap:16px;font-size:11px}#joyyu-block-home .j-nav .j-hello-link{display:none}#joyyu-block-home .j-hero{padding-top:27px}#joyyu-block-home .j-hero-grid,#joyyu-block-home .j-gamegrid,#joyyu-block-home .j-aboutgrid{grid-template-columns:1fr;gap:28px}#joyyu-block-home h1{font-size:clamp(43px,9.8vw,60px)}#joyyu-block-home .j-mascot{width:75%;max-width:320px;margin:5px auto 10px}#joyyu-block-home .j-mascot img{width:105%}#joyyu-block-home .j-hero-copy{max-width:34ch}#joyyu-block-home .j-bandtop{align-items:start;flex-wrap:wrap}#joyyu-block-home .j-screens{max-width:350px;width:100%;margin:10px auto}#joyyu-block-home .j-steps{grid-template-columns:1fr;gap:22px;margin-top:25px;padding-top:23px}#joyyu-block-home .j-steps>div{display:grid;grid-template-columns:26px 1fr;column-gap:10px}#joyyu-block-home .j-stepnumber{grid-row:1/3;margin-top:3px}#joyyu-block-home .j-steps p{max-width:32ch}#joyyu-block-home .j-contact{align-items:start;flex-direction:column}#joyyu-block-home .j-aboutgrid{gap:35px}#joyyu-block-home footer{align-items:start}#joyyu-block-home footer div{flex-wrap:wrap;gap:14px}}
+@font-face{font-family:'JoYYu Display';src:url(assets/fonts/fredoka-semibold.ttf) format('truetype');font-weight:600;font-display:swap}
+#joyyu-block-home .j-nav{padding-block:14px;gap:14px;border-bottom:1px solid #d9cfdb}
+#joyyu-block-home .j-brand-group{display:flex;align-items:center;gap:14px}
+#joyyu-block-home .j-brand-group small{border-left:1px solid #c3b8c6;padding-left:14px;font:500 11px/1.35 system-ui,sans-serif}
+#joyyu-block-home .j-nav nav{background:#fffdf8;border:1px solid #ddd4de;border-radius:40px;padding:3px;gap:2px}
+#joyyu-block-home .j-nav nav a{border-radius:30px;padding:9px 14px;display:inline-flex;align-items:center;min-height:40px;font-weight:600}
+#joyyu-block-home .j-nav nav a[aria-current]{background:#eee9ff;color:#493195}
+#joyyu-block-home .j-nav .j-hello-link{display:inline-flex;align-items:center;min-height:44px;color:#fff;background:#493195;border:0;font-weight:600;font-size:12px}
+#joyyu-block-home h1,#joyyu-block-home h2,#joyyu-block-home h3{font-family:'JoYYu Display',ui-rounded,sans-serif;font-weight:600;letter-spacing:-.024em}
+#joyyu-block-home .j-hero{padding-top:42px}
+@media(max-width:650px){#joyyu-block-home .j-nav{display:grid;grid-template-columns:1fr auto}#joyyu-block-home .j-nav nav{grid-row:2;grid-column:1/-1;justify-self:start}#joyyu-block-home .j-nav .j-hello-link{grid-column:2;grid-row:1}#joyyu-block-home .j-nav nav a{min-height:44px}}
+#joyyu-block-home .j-nav{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between}
+#joyyu-block-home .j-nav .j-wordmark{width:176px}
+#joyyu-block-home .j-nav nav{margin-left:auto;flex-shrink:0;grid-row:auto;grid-column:auto}
+#joyyu-block-home .j-gamegrid{grid-template-columns:1fr}
+@media(max-width:650px){
+  #joyyu-block-home .j-nav .j-wordmark{width:140px}
+}
+@media(max-width:480px){
+  #joyyu-block-home .j-nav{padding-inline:16px;gap:10px}
+  #joyyu-block-home .j-nav .j-wordmark{width:112px}
+  #joyyu-block-home .j-nav nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:calc(100% - 122px);gap:0;flex-shrink:1}
+  #joyyu-block-home .j-nav nav a{padding:6px;font-size:10px;line-height:1.3;min-height:44px;text-align:center;justify-content:center}
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #FFF8EE; }
+.skip-link { position: absolute; left: 16px; top: 8px; transform: translateY(-200%); background: #FFF8EE; color: #2F2937; padding: 12px; z-index: 10; }
+.skip-link:focus { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
